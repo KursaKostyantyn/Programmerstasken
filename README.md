@@ -27,7 +27,7 @@ service_id and question_type_id can have special value “*”, it means query m
 Output  
 Query line of type ‘D’ print out average waiting time rounded to minutes.  
 Only matching lines defined before the query line is counted.  
-It prints out “-” if the output is not defined.  
+It prints out "-" if the output is not defined.  
 
 Example  
 Input:  
@@ -42,7 +42,7 @@ D 3 10 P 01.12.2012
 Output:  
 83  
 100  
--  
+"-"
 
 Explanation:  
 1.query ( D 1.1 8 P 01.01.2012-01.12.2012 ) at line 5:  
